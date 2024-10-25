@@ -1,0 +1,458 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    position: fixed;
+    background-color: white;
+    width: 100%;
+}
+.home{
+    display: flex;
+    background-image:linear-gradient(rgba(0,0,40,0.4),rgba(0,0,40,0.4)),
+    url(../Image/home-slider-1-slide-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+}
+.home .content h1{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+.home .content button{
+    background-color: orange;
+    color: white;
+    margin-left: 30px;
+    padding: 20px 40px;
+    font-size: 15px;
+}
+
+/* About page Start */
+.about{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0px;
+    padding: 10px 20px;
+}
+.about .first p {
+    color: gray;
+    margin: 20px 0;
+    font-size: 20px;
+}
+.about .first .line{
+    width: 100%;
+    height: 5px;
+    background-image: linear-gradient(to right,orange 60%,gray 40%);
+    /* margin-left: 20px ; */
+    margin-bottom: 20px;
+    padding: 0px;
+}
+.about .second img{
+    width: 100%;
+    display: none;
+}
+/* About Page End */
+
+/* Servive Page Start */
+
+.service{
+    background: linear-gradient(rgba(0,0,50,0.5),rgba(0,0,50,0.5)),url('../Image/clients-parallax-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: center center;
+    color: white;
+    text-align: center;
+    margin: 10px 0px;
+    padding: 10px 10px;
+
+}
+.service p{
+    color: rgb(102, 100, 100);
+    font-size: 20px;
+}
+.service .first{
+    margin: 40px 0;
+}
+.service .first h1{
+    margin: 20px 0;
+}
+.service .second{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.service .second .card{
+    margin: 20px 0;
+}
+
+.service .second .card svg{
+    color: orange;
+    margin-bottom: 20px;
+}
+/* Service Page End */
+
+/* Economy Page Start */
+
+.economic{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+     /* align-items: center; */
+    /* justify-content: center; */ 
+    padding: 10px 10px ;
+    margin: 10px 10px ;
+}
+.economic .first h1{
+    margin-top: 40px;
+   
+}
+.economic .second h1{
+    margin-bottom: 40px;
+}
+
+.economic .first .card{
+display: flex;
+margin: 20px 0;
+/* justify-content: space-around; */
+}
+.economic .first .card .icon{
+    font-size: 35px;
+    margin-right: 10px;
+    color: gold;
+}
+.economic .first .card .content{
+    margin: 0px 5px;
+}
+.economic .first .card .content p{
+    color: rgb(177, 176, 176);
+    font-size: 19px;
+}
+.economic .first .card .content h3{
+    margin-bottom: 15px;
+}
+
+
+.economic .second img{
+    width: 100%;
+}
+
+/* Client page start */
+.clients{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 10px;
+    padding: 10px 10px ;
+}
+.clients .second{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.clients .first i{
+    font-size: 20px;
+    margin: 5px;
+}
+.clients .second img{
+    margin: 10px;
+}
+/* Cards Page Start */
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    text-align: center;
+
+}
+.cards .card{
+    width: 100%;
+    /* margin: 10px 30px; */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5),0 4px 8px 0 rgba(0,0,0,0.5);
+    margin: 20px 5px;
+
+}
+.cards .card h3{
+    color: rgb(67, 67, 67);
+    font-weight: bold;
+}
+.cards .card span{
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+}
+.cards .card p{
+    color: gray;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.cards .card .btn{
+    width: 100%;
+    padding: 20px;
+    border: 2px solid;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.cards .card .btn1{
+    width: 100%;
+    padding: 20px;
+    background-color: rgb(0, 0,60);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+/* Card Page end */
+
+/* trainers page start  */
+.trainers{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: 10px 10px;
+    padding: 10px 10px;
+}
+.trainers h1{
+    margin: 30px 0;
+}
+.trainers .card{
+    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4),0 4px 8px 0 rgba(0,0,0,0.4); */
+    margin: 5px 5px;
+    border: 1px solid rgb(203, 197, 197);
+}
+.trainers .card img{
+    width: 100%;
+}
+.trainers .card h3{
+    margin: 10px 0;
+}
+.trainers .card p{
+    margin: 10px 0;
+}
+.trainers .card .icons i{
+    font-size: 25px;
+    margin: 10px 5px;
+}
+
+/* trainer page end  */
+
+
+/* footer page start  */
+.footer{
+    border: 2px solid white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: rgb(12, 12, 59);
+    color: white;
+    padding: 30px 30px;
+}
+/* .footer .logo{
+    border: 2px solid #fff;
+    width: 70%;
+    margin: 20px;
+}
+.footer .logo img{
+    width: 100%;
+} */
+.footer .first p{
+    color: rgb(190, 189, 189);
+    font-size: 18px;
+    /* padding: 10px 0; */
+}
+.footer .first h3{
+    margin: 15px 0;
+}
+.footer .second{
+/* border: 2px solid white; */
+    margin: 10px 0;
+}
+.footer .second .img{
+    display:flex ;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+.footer .second .img {
+    width: 100%;
+}
+.footer .second .img p{
+margin: 0 0 0 20px;
+}
+.footer .second .img p span i{
+    color: rgb(201, 191, 191);
+}
+/* .footer .third { */
+    /* border: 2px solid white; */
+    /* margin: 1rem -2rem; */
+/* } */
+.footer .third h2{
+    margin:10px 0 ;
+}
+.footer .third .list1{
+    /* border: 2px solid white; */
+    display: flex;
+    justify-content: space-between;
+    /* padding: 10px 10px; */
+}
+.footer .third .list1 ul{
+    list-style: none;
+}
+.footer .third .list1 ul li{
+    margin:5px 30px;
+}
+.footer .third .list1 ul li i{
+    font-size: 10px;
+    margin:5px 0px;
+    padding:0 5px;
+    color: orange;
+}
+.footer .fourth{
+    margin: 10px 0;
+}
+.footer .fourth p i{
+margin:10px 20px 0 10px;
+color: rgb(150, 150, 150);
+}
+.footer .line{
+    width: 100%;
+    height: 1px;
+    background-color: white;
+}
+.footer .fifth{
+    width: 100%;
+    /* border: 2px solid white; */
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   margin: 20px 0;
+   text-align: center;
+}
+.footer .fifth .para p span{
+    color: orange;
+}
+
+.footer .fifth .icons{
+    /* border: 2px solid white; */
+    display: flex;
+}
+.footer .fifth .icons p{
+    margin-left: 40px;
+}
+
+
+.footer .fifth .icons i{
+    font-size: 17px;
+    padding:0 5px;
+}
+    
+
+@media screen and (min-width:768px){
+    .home .content h1{
+        font-size: 50px;
+    }
+    .home .content button{
+        margin-left: 60px;
+    }
+    .about .first{
+        width: 45%;
+        margin: auto;
+    }
+    .service .second .card{
+        width: 40%;
+    }
+    .economic .first {
+        width: 80%;
+
+    }
+    .cards .card{
+        width: 40%;
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+    .clients .first{
+        width: 50%;
+    }
+    .footer .first{
+        width: 45%;
+    }
+    
+    .footer .third .list1 ul li i{
+        
+        margin:5px 0px;
+        padding:8px 5px;
+        
+    }
+    .footer .fifth .icons {
+      float: right;
+    }
+}
+
+    
+
+@media screen and ( min-width:1024px) {
+    .about{
+        display: grid;
+    }
+    .about .first{
+        width: 45%;
+        margin-left: 0;
+    }
+    .about .second{
+        width: 50%;
+    }
+    .about .second img{
+        display: block;
+    }
+    .service .second .card{
+        width: 30%;
+    }
+    .economic .first{
+        width: 40%;
+    }
+    .economic .second{
+        width: 30%;
+    }
+    .cards .card{
+        width: 35%;
+        justify-content: space-evenly;
+    }
+    .clients .first{
+        width: 30%;
+    }
+    .clients .second{
+        width: 70%;
+    }
+    .trainers .card{
+        width: 22%;
+    }
+    .footer .first{
+        width: 75%;
+    }
+
+}
+ @media screen and (min-width:1200px){
+    .about{
+        display: flex;
+    }
+    .about .second {
+        width:30%;
+        margin-top: 50px;
+        margin-right: 150px;
+    }
+    .cards .card{
+        width: 25%;
+    }
+    .footer .first{
+        width: 25%;
+    }
+    
+} 
